@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>FARMERS MARKET</title>
+		<meta name="author" content="ajai_qmar">
+		<meta name="description" content="Online market for Farmers">
+		<meta name="viewport" content="initial-scale = 1.0 , width = screen-width">
+		<link rel="stylesheet" href="CSS/tsignup.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<h1> பதிவுபெறுக </h1>
+			<form action="tlogin.html">
+				<div class="space">
+					<input type="username" id="username" name="username" placeholder="பயனர்பெயர்"></input>
+				</div>
+				<div id="pass">
+					<input type="password" id="password" name="password" placeholder="கடவுச்சொல்" oninput="check_password()"></input>
+					<span class="material-icons" id="material" onclick="toggle_visibility()">visibility</span>
+				</div>
+				<p id="alert"></p>
+				<div class="space">
+				<input type="text" id="email" name="email" placeholder="மின்னஞ்சல் முகவரி"></input>
+				</div>
+				<div class="space">
+				<input type="tel" id="phonenumber" name="phonenumber" placeholder="தொலைபேசி எண்"></input>
+				</div>
+				<div class="space">
+				<input type="submit" id="submit" value="சமர்ப்பிக்கவும்"></input>
+				</div>
+			</form>
+			<p>ஏற்கனவே ஒரு கணக்கு உள்ளதா?<br> <a href="login.html" id="login"> உள்நுழைய </a></p>
+		</div>
+		<script src="JAVASCRIPT/tlogin.js"></script>
+	</body>
+</html>

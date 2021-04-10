@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>FARMERS MARKET</title>
+		<meta name="author" content="ajai_qmar">
+		<meta name="description" content="Online market for Farmers">
+		<meta name="viewport" content="initial-scale = 1.0 , width = screen-width">
+		<link rel="stylesheet" href="CSS/tprofile.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<h1> சுயவிவரம் </h1>
+			<form action="login.html">
+				<div class="space">
+					<input type="username" id="username" name="username" placeholder="(பயனரின் பெயர்)"></input>
+				</div>
+				<div id="pass">
+					<input type="password" id="password" name="password" placeholder="(பயனரின் கடவுச்சொல்)" oninput="check_password()"></input>
+					<span class="material-icons" id="material" onclick="toggle_visibility()">visibility</span>
+				</div>
+				<p id="alert"></p>
+				<div class="space">
+				<input type="text" id="email" name="email" placeholder="(பயனரின் மின்னஞ்சல் அடையாளம்)"></input>
+				</div>
+				<div class="space">
+				<input type="tel" id="phonenumber" name="phonenumber" placeholder="(பயனரின் தொலைபேசி எண்)"></input>
+				</div>
+				<div class="space">
+				<input type="submit" id="submit" value="சமர்ப்பிக்கவும்"></input>
+				<div id="edit">
+					<a href="">திருத்தம்</a>
+				</div>
+				</div>
+			</form>
+		</div>
+		<script src="JAVASCRIPT/login.js"></script>
+	</body>
+</html>
